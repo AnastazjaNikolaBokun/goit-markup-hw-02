@@ -59,13 +59,10 @@ a:hover {
   background-color: var(--buttoncolor);
   width: 93px;
   height: 38px;
-  left: 639px;
-  top: 174px;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  color: var(--textcolor);
   cursor: pointer;
 }
 
@@ -73,8 +70,6 @@ a:hover {
   background-color: var(--markcolor);
   width: 121px;
   height: 38px;
-  left: 510px;
-  top: 174px;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -114,8 +109,6 @@ address {
   background-color: var(--markcolor);
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
@@ -123,4 +116,66 @@ address {
   line-height: 1.87;
   color: var(--textcolorthird);
   cursor: pointer;
+}
+
+.headerthird {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.textmain {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--textcolorsecond);
+}
+
+.headersecond {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+}
+
+#agencja {
+  background-color: var(--buttoncolor);
+}
+
+.imagedecorone figure {
+  background-color: var(--textcolorthird);
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.textimage p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+  color: var(--textcolorsecond);
+}
+
+.imagedecortwo figure {
+  background-color: var(--textcolorthird);
+  width: 370px;
+  height: 404px;
+  border: 1px solid rgb(238, 238, 238);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.textimageportfolio p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
+  color: var(--textcolorsecond);
 }
