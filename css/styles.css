@@ -10,23 +10,22 @@
 }
 
 body {
-  font-family: "Roboto", "Helvetica Neue", "Roboto", "Verdana", "Tahoma",
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--textcolor);
 }
 
 a {
   text-decoration: none;
-  color: var(--textcolor);
+  color: inherit;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: var(--markcolor);
 }
 
 .logo {
-  font-family: "Raleway", "Helvetica Neue", "Roboto", "Verdana", "Tahoma",
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
@@ -41,7 +40,7 @@ a:hover {
   color: var(--studiocolor);
 }
 
-.studiosecond {
+.studio-second {
   color: var(--textcolorthird);
 }
 
@@ -55,7 +54,7 @@ a:hover {
   color: var(--textcolorsecond);
 }
 
-.buttonmain {
+.button-main {
   background-color: var(--buttoncolor);
   width: 93px;
   height: 38px;
@@ -66,7 +65,8 @@ a:hover {
   cursor: pointer;
 }
 
-.buttonmain:hover {
+.button-main:hover,
+.button-main:focus {
   background-color: var(--markcolor);
   width: 121px;
   height: 38px;
@@ -83,15 +83,14 @@ a:hover {
   background-color: var(--backgroundsecond);
   color: var(--textcolorthird);
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
 }
 
-.contactfooter {
+.contact-footer {
   color: var(--textcolorfourth);
 }
 
-address {
+#kontakt {
   font-style: normal;
 }
 
@@ -105,7 +104,7 @@ address {
   text-transform: uppercase;
 }
 
-.buttonalternative {
+.button-alternative {
   background-color: var(--markcolor);
   width: 200px;
   height: 50px;
@@ -118,21 +117,20 @@ address {
   cursor: pointer;
 }
 
-.headerthird {
+.header-third {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.17;
   text-transform: uppercase;
 }
 
-.textmain {
+.text-main {
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
   color: var(--textcolorsecond);
 }
 
-.headersecond {
+.header-second {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -143,7 +141,7 @@ address {
   background-color: var(--buttoncolor);
 }
 
-.imagedecorone figure {
+.imagedecor-one figure {
   background-color: var(--textcolorthird);
   width: 270px;
   height: 368px;
@@ -156,14 +154,14 @@ address {
   text-align: center;
 }
 
-.textimage p {
+.text-image p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.18;
   color: var(--textcolorsecond);
 }
 
-.imagedecortwo figure {
+.imagedecor-two figure {
   background-color: var(--textcolorthird);
   width: 370px;
   height: 404px;
@@ -173,7 +171,7 @@ address {
   line-height: 2;
 }
 
-.textimageportfolio p {
+.text-image-portfolio p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.87;
